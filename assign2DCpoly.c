@@ -36,8 +36,8 @@ int main()
        
 }*/	
     for(i=0;i<n;i++){
-       printf("F[%d] = %lf + %lfi\n", i, creal(F[i]), cimag(F[i]));
-        printf("H[%d] = %lf + %lfi\n", i, creal(H[i]), cimag(H[i]));
+       printf("F[%d] = %lf + (%lf) i\n", i, creal(F[i]), cimag(F[i]));
+        printf("H[%d] = %lf + (%lf) i\n", i, creal(H[i]), cimag(H[i]));
         printf("\n");
        
 }
